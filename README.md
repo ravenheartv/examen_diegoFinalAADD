@@ -1,4 +1,4 @@
-# Express VPS Exam
+# Express VPS Examen Idaira
 
 ## Proyecto Express para Examen VPS
 Este proyecto consiste en desplegar un servidor de Express en un VPS con soporte para HTTPS, configuración de CORS y despliegue mediante CI/CD.
