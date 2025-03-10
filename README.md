@@ -27,11 +27,7 @@ PORT=3000
 USE_HTTPS=true
 ```
 
-### 4. Crear certificados HTTPS (solo para pruebas)
-```bash
-mkdir cert
-openssl req -nodes -new -x509 -keyout cert/key.pem -out cert/cert.pem
-```
+
 
 ---
 
