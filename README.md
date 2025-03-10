@@ -1,5 +1,3 @@
-# examen_diegoFinalAADD
-
 # Express VPS Exam
 
 ## Proyecto Express para Examen VPS
@@ -27,7 +25,11 @@ PORT=3000
 USE_HTTPS=true
 ```
 
-
+### 4. Crear certificados HTTPS (solo para pruebas)
+```bash
+mkdir cert
+openssl req -nodes -new -x509 -keyout cert/key.pem -out cert/cert.pem
+```
 
 ---
 
@@ -75,7 +77,7 @@ const express = require('express');
 const router = express.Router();
 
 router.get('/', (req, res) => {
-  res.json({ message: '¡Servidor funcionando correctamente!' });
+  res.json({ message: '¡Servidor funcionando estupendamente idaira momento! :3' });
 });
 
 module.exports = router;
@@ -132,5 +134,6 @@ jobs:
 2. Prueba HTTPS: `https://localhost:3000/api`
 
 ---
+
 
 
